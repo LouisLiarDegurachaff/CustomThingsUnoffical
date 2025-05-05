@@ -24,9 +24,9 @@ import tterrag.customthings.common.handlers.FuelHandler;
 @Mod(modid = MODID, name = NAME, version = VERSION, dependencies = DEPENDENCIES)
 public class CustomThings implements IEnderMod {
 
-    public static final String MODID = "customthings";
+    public static final String MODID = "CustomThings";
     public static final String NAME = "Custom Things";
-    public static final String VERSION = "@VERSION@";
+    public static final String VERSION = Tags.VERSION;
     public static final String DEPENDENCIES = "after:endercore";
 
     @EventHandler

@@ -1,16 +1,16 @@
 [
-{
-  "modid": "customthings",
-  "name": "CustomThings",
-  "description": "Adding custom items and blocks via JSON files.",
-  "version": "1.0",
-  "mcversion": "1.7.10",
-  "url": "http://ci.tterrag.com",
-  "updateUrl": "http://ci.tterrag.com/job/CustomThings",
-  "authors": ["tterrag"],
-  "credits": "",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
-}
+  {
+    "modid":"${modId}",
+    "name":"${modName}",
+    "description": "Adding custom items and blocks via JSON files.",
+    "version":"${modVersion}",
+    "mcversion":"${minecraftVersion}",
+    "url": "http://ci.tterrag.com",
+    "updateUrl": "http://ci.tterrag.com/job/CustomThings",
+    "authors": ["tterrag"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
 ]
